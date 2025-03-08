@@ -1,15 +1,13 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./index.css";
 import App from "./App.jsx";
 import AboutPage from "./components/AboutPage.jsx";
 import HowItWorks from "./components/HowItWorks.jsx";
 import FormPage from "./components/FormPage.jsx";
 import ResultPage from "./components/Result.jsx";
 import Footer from "./components/Footer.jsx";
-import Navbar from "./components/Navbar.jsx";
-import ContactPage from "./components/Contact.jsx";
+import Navbar from "./components/NavBar.jsx";
 import Contact from "./components/Contact.jsx";
 
 // Define Routes Here
