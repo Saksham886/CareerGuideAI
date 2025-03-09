@@ -9,7 +9,7 @@ import ResultPage from "./components/Result.jsx";
 import Footer from "./components/Footer.jsx";
 import Navbar from "./components/NavBar.jsx";
 import Contact from "./components/Contact.jsx";
-
+import CareerDetail from "./components/CareerDetail.jsx";
 // Define Routes Here
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -23,6 +23,7 @@ createRoot(document.getElementById("root")).render(
           <Route path="/howitworks" element={<HowItWorks/>}/>
           <Route path="/career" element={<FormPage/>}/>
           <Route path="/result" element={<ResultPage/>}/>
+          <Route path="/careerDetail" element={<CareerDetail/>}/>
       </Routes>
     </BrowserRouter>
    <Footer/>

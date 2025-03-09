@@ -15,7 +15,7 @@ export const getCareerGuidance = async (formData) => {
     };
 
     // Creating a structured prompt using the form data
-    const prompt = `
+    const prompt = `You are an AI career guidance assistant
 Based on the following user details:
 
 - **Full Name:** ${formData.name}
@@ -28,7 +28,7 @@ Suggest **three potential career paths** that align with the user's interests an
 
 1. **Career Name**
 2. **A brief description** of why this career suits them
-3. **A publicly accessible image URL** from a **trusted stock image source** such as **Unsplash, Pexels, or Pixabay**. The image should be directly viewable without authentication.
+3. **Find a high-quality, publicly accessible image that accurately represents the given career from a trusted stock image source such as Unsplash, Pexels, or Pixabay. The image should clearly depict professionals actively engaged in their work environment, ensuring it aligns with the career's typical tasks and setting. Avoid generic or unrelated images, and ensure the image is directly viewable without authentication.
 
 Return the response in the following **structured JSON format** (ensure it is valid JSON without extra text):
 
